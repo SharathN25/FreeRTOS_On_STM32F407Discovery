@@ -1,7 +1,7 @@
 # Seeting up FreeRTOS on STM32F407 Discovery Kit
 **FreeRTOS Basic Set up complete Keil project --> [FreeRTOS_Basic_Setup](https://github.com/SharathN25/FreeRTOS_On_STM32F407Discovery/tree/master/Seeting%20up%20FreeRTOS/FreeRTOS_Basic_Setup)**
 
-
+## Steps to set up FreeRTOS
 1. Open Keil uVision IDE. Click on **project** the select **New uVision Project.. **. Then select your working directory and give your preferred project name.
 2. Now Select the device, in our case **STM32F407VG** MCU.
 <img src = "FreeRTOS_Setup_Images/Figure_FreeRTOS_Basic_DeviceSelect.PNG" width="750" height="480" hspace="80" >

@@ -13,7 +13,7 @@ Path to find these files in FreeRTOS folder:
 
 * **Files** : (croutine, event_groups, list, queue, stream_buffer, tasks, and timers)
  
- **Path** :  FreeRTOSv10.2.1\FreeRTOS\Source
+   **Path** :  FreeRTOSv10.2.1\FreeRTOS\Source
  
 * **Files**: heap_4 ( You can add anyone memory management scheme of your choice) 
  

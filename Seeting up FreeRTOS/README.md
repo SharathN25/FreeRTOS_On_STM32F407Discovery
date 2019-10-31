@@ -27,11 +27,11 @@
 
 5. Now you need to add the path of all header files that are required. To do so, Right Click on **Target1**-> **Option for Target "Target1.."** -> **C/C++** -> **Include path**. Make sure you inclue these paths : 
 
-* Include folder in FreeRTOS ( ......\FreeRTOSv10.2.1\FreeRTOS\Source\include)
-* RVDS directory (.......\FreeRTOSv10.2.1\FreeRTOS\Source\portable\RVDS\ARM_CM4F)
+   * Include folder in FreeRTOS ( ......\FreeRTOSv10.2.1\FreeRTOS\Source\include)
+   * RVDS directory (.......\FreeRTOSv10.2.1\FreeRTOS\Source\portable\RVDS\ARM_CM4F)
 
 <img src = "FreeRTOS_Setup_Images/Figure_FreeRTOS_Basic_IncludePath.PNG" >
 
-**Note** : If you have any header files, make sure you include the path of these header files as explained above.
+   **Note** : If you have any header files, make sure you include the path of these header files as explained above.
 
 6. 

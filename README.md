@@ -12,5 +12,5 @@ The STM32F407 Discovery Board is a Microconctroller which is based on ARM Cortex
 ## Setting Up FreeRTOS on STM32F407 Discovery Board
 The first step is to download the **FreeRTOS**. Once you have donwloaded the FreeRTOS source files make sure you copy them into your project folder. Here I will be using **Keil uVision 5** IDE to set up freeRTOS.  You can find detailed step to set up FreeRTOS below:
 
-*
+* **[Setting Up FreeRTOS]()** - Detailed steps do the initial FreeRTOS setup in Keil uVision 5.
 

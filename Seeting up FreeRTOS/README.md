@@ -1,4 +1,7 @@
 # Seeting up FreeRTOS on STM32F407 Discovery Kit
+**FreeRTOS Basic Set up complete Keil project --> [FreeRTOS_Basic_Setup](https://github.com/SharathN25/FreeRTOS_On_STM32F407Discovery/tree/master/Seeting%20up%20FreeRTOS/FreeRTOS_Basic_Setup)**
+
+
 1. Open Keil uVision IDE. Click on **project** the select **New uVision Project.. **. Then select your working directory and give your preferred project name.
 2. Now Select the device, in our case **STM32F407VG** MCU.
 <img src = "FreeRTOS_Setup_Images/Figure_FreeRTOS_Basic_DeviceSelect.PNG" width="750" height="480" hspace="80" >
@@ -38,6 +41,25 @@
 
 7. Now under User Application Group add a new **C file**. In the repository **main.c** file has the basic template so that the FreeRTOS application compiles successfully.  So please use this basic code in the main function for the successful compilation of the FreeRTOS application.
 
-<img src = "FreeRTOS_Setup_Images/Figure_FreeRTOS_Basic_MinnimalCfile.png"  width="750" height="480" hspace="80" >
+<img src = "FreeRTOS_Setup_Images/Figure_FreeRTOS_Basic_MinnimalCfile.png"  width="750" height="450" hspace="80" >
+
+8. Connect your STM32F407 Kit to PC/Laptop.
+
+9. In kiel uVison Right Click on **Target1**-> **Option for Target "Target1.."**-> **Debug**-> Select **ST-Link-Debugger** as shown below.
+
+<img src = "FreeRTOS_Setup_Images/Figure_FreeRTOS_Basic_STLINK.PNG"  width="750" height="450" hspace="80" >
+
+10. As shown in step 9, after selecting the ST-link-Debugger Click on **Settings** -> Select **Trace** and check all the fields as shown below:
+
+<img src = "FreeRTOS_Setup_Images/Figure_FreeRTOS_Basic_TarceSettings.PNG"  width="750" height="450" hspace="80" >
+
+11. Upload the Code to board. After uploading go to **debug-window**->**view**->**Serial Windows**->**Debug(printf) Viewer**. As shown below
+
+<img src = "FreeRTOS_Setup_Images/Figure_FreeRTOS_Basic_Printf.png"  width="550" height="500" hspace="150" >
+
+12. Now run the code to see the output on the Debug printf window. (Here the application creates two tasks and inside these tasks, it simply prints the name of task)
+
+<img src = "FreeRTOS_Setup_Images/Figure_FreeRTOS_Basic_output.png"  width="800" height="500" hspace="50" >
 
 
+**Note** : I have deleted all other files in the FreeRTOS folder except the one which are needed for this project. 

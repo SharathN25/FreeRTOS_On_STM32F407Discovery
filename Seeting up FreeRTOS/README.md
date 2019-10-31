@@ -37,6 +37,7 @@
 6. FreeRTOS has one important header file called **FreeRTOSConfig.h**. This file contains the application-specific(in our case-specific to Cortex M4F MCU) customization. For simplicity, I have copied our MCU specific "FreeRTOSConfig.h" file in the **RVDS** directory also in step5 we have already added RVDS path. IF you're adding it yourself then You have to add this file in your project and also make sure you include the path of this file as explained in step 5. 
 
 7. Now under User Application Group add a new **C file**. In the repository **main.c** file has the basic template so that the FreeRTOS application compiles successfully.  So please use this basic code in the main function for the successful compilation of the FreeRTOS application.
-<img src = "FreeRTOS_Setup_Images/Figure_FreeRTOS_Basic_MinnimalCfile.PNG" width="750" height="480" hspace="80" >
+
+<img src = "FreeRTOS_Setup_Images/Figure_FreeRTOS_Basic_MinnimalCfile.png"  width="750" height="480" hspace="80" >
 
 

@@ -11,10 +11,17 @@
 
 Path to find these files in FreeRTOS folder: 
 
-   * **Files** : (croutine, event_groups, list, queue, stream_buffer, tasks, and timers)
+* **Files** : (croutine, event_groups, list, queue, stream_buffer, tasks, and timers)
  
-   **Path** :  FreeRTOSv10.2.1\FreeRTOS\Source
+ **Path** :  FreeRTOSv10.2.1\FreeRTOS\Source
+ 
+* **Files**: heap_4 ( You can add anyone memory management scheme of your choice) 
+ 
+   **Path** : FreeRTOSv10.2.1\FreeRTOS\Source\portable\MemMang
 
+ * **Files**: port.c (this is an MCU specific file)
+ 
+   **Path** : FreeRTOSv10.2.1\FreeRTOS\Source\portable\RVDS\ARM_CM4F 
 
 **Note**: FreeRTOS version may change. Just use the latest version available.
 

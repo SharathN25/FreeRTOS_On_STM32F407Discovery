@@ -8,3 +8,18 @@
 
 4. Under Target1 add new Group **FreeRTOS**. Add all necessary FreeRTOS files to this group. As shown below:
 <img src = "FreeRTOS_Setup_Images/Figure_FreeRTOS_Basic_Files.PNG" width="600" height="500" hspace="130">
+
+Path to find these files in FreeRTOS folder: 
+ * **Files** : (croutine, event_groups, list, queue, stream_buffer, tasks, and timers)
+ 
+   **Path** :  FreeRTOSv10.2.1\FreeRTOS\Source
+
+ * **Files**: heap_4 ( You can add anyone memory management scheme of your choice) 
+ 
+   **Path** : FreeRTOSv10.2.1\FreeRTOS\Source\portable\MemMang
+
+ * **Files**: port.c (this is an MCU specific file)
+ 
+   **Path** : FreeRTOSv10.2.1\FreeRTOS\Source\portable\RVDS\ARM_CM4F 
+
+**Note**: FreeRTOS version may change. Just use the latest version available.

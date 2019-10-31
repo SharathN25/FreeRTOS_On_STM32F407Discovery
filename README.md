@@ -9,4 +9,8 @@ The **[FreeRTOS](https://www.freertos.org/)** is a real-time operating system ke
 ## STM32F407 Discovery Board
 The STM32F407 Discovery Board is a Microconctroller which is based on ARM Cortex-M4 Architecture. If you want to know about this MUC there is a detailed project made on how to use this MCU with all necessary information to get started here [STM32F407-Discovery](https://github.com/SharathN25/STM32F407-Discovery)
 
+## Setting Up FreeRTOS on STM32F407 Discovery Board
+The first step is to download the **FreeRTOS**. Once you have donwloaded the FreeRTOS source files make sure you copy them into your project folder. Here i will be using **Keil uVision 5** IDE to set up freeRTOS.  You can find detailed step to set up FreeRTOS below:
+
+*
 

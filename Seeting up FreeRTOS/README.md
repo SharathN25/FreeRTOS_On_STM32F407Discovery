@@ -1,1 +1,1 @@
-# Seeting up FreeRTOS on STM32F407 Discovery Board
+# Seeting up FreeRTOS on STM32F407 Discovery Kit

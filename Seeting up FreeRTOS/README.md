@@ -10,16 +10,15 @@
 <img src = "FreeRTOS_Setup_Images/Figure_FreeRTOS_Basic_Files.PNG" width="600" height="500" hspace="130">
 
 Path to find these files in FreeRTOS folder: 
- * **Files** : (croutine, event_groups, list, queue, stream_buffer, tasks, and timers)
+
+   * **Files** : (croutine, event_groups, list, queue, stream_buffer, tasks, and timers)
  
    **Path** :  FreeRTOSv10.2.1\FreeRTOS\Source
 
- * **Files**: heap_4 ( You can add anyone memory management scheme of your choice) 
- 
-   **Path** : FreeRTOSv10.2.1\FreeRTOS\Source\portable\MemMang
-
- * **Files**: port.c (this is an MCU specific file)
- 
-   **Path** : FreeRTOSv10.2.1\FreeRTOS\Source\portable\RVDS\ARM_CM4F 
 
 **Note**: FreeRTOS version may change. Just use the latest version available.
+
+5. Now you need to add the path of all header files that are required. To do so, Right Click on **Target1**-> **Option for Target "Target1.."** -> **C/C++** -> **Include path**. Make sure you inclue these paths : 
+
+    * Include folder in FreeRTOS ( ......\FreeRTOSv10.2.1\FreeRTOS\Source\include)
+    * RVDS directory (.......\FreeRTOSv10.2.1\FreeRTOS\Source\portable\RVDS\ARM_CM4F)
